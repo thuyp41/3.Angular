@@ -1,0 +1,46 @@
+<style>
+    .error {
+        color: red;
+    }
+
+    input.ng-invalid {
+        border: red thin solid;
+    }
+
+    input.ng-valid {
+        border: gray thin solid;
+    }
+</style>
+
+<div class="container" ng-controller="myADD">
+    <h4>Add New Student</h4>
+    <hr>
+
+    <form name="formStudent" ng-submit="addStudent()" >
+
+        <div class="form-group">
+            <label>ID</label>
+            <input type="text" class="form-control" id="studentID" name="studentID" pattern="SV\d{2}" ng-model="ID"
+                required>
+            <span class="error" ng-show="formStudent.studentID.$error.required">Required /</span>
+            <span class="error" ng-show="formStudent.studentID.$invalid">SV[xx]</span>
+        </div>
+
+        <div class="form-group">
+            <label>Fullname</label>
+            <input type="text" class="form-control" id="studentName" name="studentName" ng-model="name" required>
+            <span class="error" ng-show="formStudent.studentName.$error.required">Required</span>
+        </div>
+
+        <div class="form-group">
+            <label>Year of birth</label>
+            <input type="number" class="form-control" id="yob" name="yob" ng-model="yob" min="1980" max="2006" required>
+            <span class="error" ng-show="formStudent.yob.$error.required">Required / </span>
+            <span class="error" ng-show="formStudent.yob.$invalid">Invalid year of birth</span>
+        </div>
+
+        <button type="submit" class="btn btn-info" ng-disabled="formStudent.$invalid">Submit</button>
+
+    </form>
+
+</div>

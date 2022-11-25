@@ -1,0 +1,8 @@
+{
+    "data_course": [
+      { "id": "C01", "name": "Java Progamming", "type":"LT","Fee":500},
+      { "id": "C02", "name": "React Native + NodeJS", "type":"LT","Fee":400},
+      { "id": "C03", "name": "Design a simple web with HTML5-CSS3", "type":"ST","Fee":300},
+      { "id": "C04", "name": "UI/UX Principle", "type":"ST","Fee":200}
+    ]
+  }

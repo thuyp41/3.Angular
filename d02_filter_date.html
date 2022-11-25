@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter-date</title>
+    <!-- link bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- 1. nhung link angularjs framework -->
+    <script src="js/angular.min.js"></script>
+</head>
+
+<body ng-app="myAPP">
+    <div class="container-fluid">
+        <div ng-include="'d02_header.html'"></div>
+
+        <!-- main content -->
+        <div ng-controller="myDATE">
+            <h2>AngularJS date filter</h2>
+            <hr>
+            <p>Enter date:
+                <input type="datetime-local" name="today" id="today" ng-model="today">
+            </p>
+            <p>
+                Default date: {{today |date}}  <br>
+                Short : {{today |date:'short'}}  <br>
+                Medium : {{today |date:'medium'}}  <br>
+                <br>
+                Short date: {{today |date:'shortDate'}}  <br>
+                Long date : {{today |date:'longDate'}}  <br>
+                Medium date : {{today |date:'mediumDate'}}  <br>
+                Full date : {{today |date:'fullDate'}}  <br>
+                <br>
+                Short time: {{today |date:'shortTime'}}  <br>
+                Medium time : {{today |date:'mediumTime'}}  <br>
+                <br>
+                Year : {{today |date:'yyyy'}} <br>
+                Month : {{today |date:'MM'}} <br>
+                Month : {{today |date:'MMM'}} <br>
+                Month : {{today |date:'MMMM'}} <br>
+                Day : {{today |date:'dd'}} <br>
+
+            </p>
+        </div>
+
+        <div ng-include="'d02_footer.html'"></div>
+    </div>
+    <script>
+        let app = angular.module("myAPP",[]);
+        app.controller("myDATE", function($scope){
+            $scope.today = new Date();
+        });
+
+    </script>
+</body>
+
+</html>

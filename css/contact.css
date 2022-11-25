@@ -1,0 +1,222 @@
+.form-label{
+    float: left;
+    display: block;
+    position: absolute;
+    left: 700px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top:10px;
+    color: #9DBFAF;
+}.bh{
+    float: left;
+        display: block;
+        position: absolute;
+        right: -480px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        top:20px;
+        color: black;
+        background-color: aquamarine;
+  }
+  .mn{
+    float: left;
+    display: block;
+    position: absolute;
+    right: -500px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top:20px;
+   color: red;
+  }
+  .mn:hover{
+    transition: .2s;
+    color: blueviolet;
+    background-color: bisque;
+  }
+  .mt{
+    color: brown;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }.mb{
+    color:cadetblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  }
+ .bm{
+  color:cadetblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top:30px;
+ }
+ .lk{
+  color: brown;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .cs{
+  color:cadetblue;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .bm:hover{
+  color:red;
+  transition: .2s;
+ }
+ .dropdown{
+  bottom: 10px;
+     color: blue !important;
+ padding: 90px !important;
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 20px;
+ }
+ .btnz:hover{
+   color: red !important;
+   transition: .2s;
+ }
+ .ot{
+   color: cadetblue;
+   text-align: center;
+   display: block;
+ }
+ .ot:hover{
+   color: brown;
+   transition: .2s;
+ }
+ .wrap{
+  width: 50%;
+  position: absolute;
+ top: 0px;
+
+  left: 70%;
+
+}
+.img{
+  float: right ;
+  display: block;
+  position: absolute;
+  right: -1050px;
+  top: -30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar-brand{
+  float: right ;
+  display: block;
+  position: absolute;
+  left: 70px;
+  top:-20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+.nav-link {
+ color:blue !important;
+padding:80px !important;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+top: 50px !important;
+}
+
+
+.nav-link:hover {
+color:red;
+
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+
+.container-fluid{
+background-color:white !important;
+width: 1800px !important;
+height: 80px !important;
+}.a{
+float: right ;
+display: block;
+position: absolute;
+right: 1080px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+top: 20px;
+}
+.hge{
+width: 500px;
+
+float: right ;
+display: block;
+position: absolute;
+right: 1280px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.i{
+float: right ;
+display: block;
+position: absolute;
+right: 950px;
+font-family:'Courier New', Courier, monospace
+;
+color:cadetblue;
+top: 60px;
+}.w{
+float: right ;
+display: block;
+position: absolute;
+right: 120px;
+font-family:'Courier New', Courier, monospace
+;
+color:cadetblue;
+top: 40px;
+}
+.u{
+float: right ;
+display: block;
+position: absolute;
+right: 700px;
+font-family:'Courier New', Courier, monospace
+;
+color:cadetblue;
+top: 60px;
+}
+.dropdown{
+  bottom: 0px;
+     color: blue !important;
+ padding: 75px !important;
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 20px;
+ }
+ .ma{
+  float: right;
+  left: 100px;
+ }
+ .m0{
+  float: right;
+  left: 500px;
+ }
+ .hge{
+
+ 
+  float: right ;
+  display: block;
+  
+  position: absolute;
+  right: 1500px;
+
+}
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+  padding-left: 80px;
+  top:100px;
+  float: left;
+  right:100px;
+  width: 330px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: chocolate;
+}
+
+
+
+
+ 
+ 

@@ -1,0 +1,35 @@
+<div ng-controller="myList">
+    <h2>Course List</h2>
+    <p>Enter course name <input type="text" name="pname" ng-model="pname"></p>
+    <div>
+        <p>
+           Long-term <input type="radio" name="status"  ng-model="status" value="LT">
+           Short-term <input type="radio" name="status"  ng-model="status" value="ST">
+           All <input type="radio" name="status"  ng-model="status" >
+        </p>
+    </div>
+    
+    <table class="table table-bordered table-hover table-striped">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Fee</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="c in ds | filter:status |filter:pname" >
+                <td>{{$index+1}}</td>
+                <td>{{c.id| uppercase}}</td>
+                <td>{{c.name|lowercase}}</td>
+                <td>{{c.type| uppercase}}</td>
+                <td>{{c.Fee}}</td>
+                <td> <button type="button" class="btn btn-success" ng-click="remove(c.id)" > Delete </button></td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

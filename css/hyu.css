@@ -1,0 +1,79 @@
+.form-label{
+  float: left;
+      display: block;
+      position: absolute;
+      right: -150px;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      top:10px;
+      color: #9DBFAF;
+
+ }
+.bh{
+  float: left;
+      display: block;
+      position: absolute;
+      right: -300px;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      top:35px;
+      color: black;
+      background-color: aquamarine;
+}
+.mn{
+  float: left;
+  display: block;
+  position: absolute;
+  right: -330px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  top:35px;
+ color: red;
+}
+.mn:hover{
+  transition: .2s;
+  color: blueviolet;
+  background-color: bisque;
+}
+.fab{
+  float: right;
+  display: block;
+  position: absolute;
+  right: 160px;
+  top: 2300px;
+}
+.fa{
+
+float: left;
+  display: block;
+  position: absolute;
+  right: 100px;
+  top:2300px;}
+  .fb{
+    float: left;
+  display: block;
+  position: absolute;
+  right: 40px;
+  top: 2300px;
+  }
+  .mj{
+    color:lightsteelblue;
+    font-family: serif;
+    font-size: 20px;
+  }
+  .mj:hover{
+    transition: .2s;
+    color: red;
+    background-color: aqua;
+  }
+  .nm{
+    float: left;
+  display: block;
+  position: absolute;
+  right:-500px;
+  bottom: 230px;
+  color: darkseagreen;
+  }
+  .product-button{
+    float: right;
+    top:30px;
+  }
+  
+  

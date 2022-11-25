@@ -1,0 +1,43 @@
+<h2>Food List</h2>
+<hr>
+
+<!-- main content -->
+<div ng-controller="myLIST">
+
+    <p>Today is {{today | date:'fullDate'}}</p>
+
+    <p>
+        <input type="text" name="sfood" id="sfood" placeholder="input food name" ng-model="sfood">
+    </p>
+
+    <h4>List of Food</h4>
+    <table class="table table-hover table-striped">
+        <thead>
+            <tr>
+                <th>Sr.No</th>
+                <th>ID</th>
+                <th>Name</th>
+                <th>price</th>
+                <th>action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="F in ds | filter:sfood">
+                <td>{{$index+1}}</td>
+                <td>{{F.id | lowercase}}</td>
+                <td>{{F.name | uppercase}}</td>
+                <td>{{F.price}}</td>
+               
+                <td>
+                    <button type="button" class="btn btn-success" ng-click="remove(F.id)" > delete </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+ 
+</div>
+
+
+</div>

@@ -1,0 +1,115 @@
+
+
+.q{
+    float: right ;
+    display: block;
+    position: absolute;
+    right:800px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top:0px;
+    font-size: 30px;
+  color:chocolate;}
+ .j{ float: right ;
+    display: block;
+    position: absolute;
+    right:820px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top:40px;
+  color: #9DBFAF;}
+  .l{
+    float: right ;
+    display: block;
+    position: absolute;
+    right:830px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top:70px;
+  color: #9DBFAF;
+  }
+  .h{
+    float: right ;
+    display: block;
+    position: absolute;
+    right:830px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    top:100px;
+  color: #9DBFAF;
+  }
+  .r{
+    float: right ;
+    display: block;
+    position: absolute;
+    right:530px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+bottom:73px;
+    font-size: 30px;
+  color:crimson;
+  }
+  .w{
+    float: right ;
+    display: block;
+    position: absolute;
+    right:520px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   bottom: 40px;
+  color: #9DBFAF;
+  }
+  .e{
+float: right ;
+    display: block;
+    position: absolute;
+    right:530px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   bottom:10px;
+  color: #9DBFAF;
+  }
+  .eg{
+    float: right ;
+    display: block;
+    position: absolute;
+    right:300px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+bottom:40px;
+    font-size: 30px;
+  color:crimson;
+  }
+
+  .form-control{
+    float: right ;
+    display: block;
+    position: absolute;
+    right:50px;
+bottom:60px;
+width: 220px;
+   
+  color:crimson;}
+  
+  
+.we{
+  float: right ;
+  display: block;
+  position: absolute;
+  right:600px;
+  top: 220px;
+  color: coral;
+}.btn{
+  float: right ;
+  display: block;
+  position: absolute;
+  right:0px;
+bottom:60px;
+width: 210px;
+color:#9DBFAF;
+}
+.btn:hover{
+  transition: 1s !important;
+  color:red !important;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+ 
+  
+}
+.fn{
+float:
+right;
+ ;
+}

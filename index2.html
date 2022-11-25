@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- 1. nhung link angularjs framework -->
+     <script src="js/angular.min.js"></script>
+     <script src="js/angular-route.min.js"></script>
+     <link rel="stylesheet" href="css/project.css">
+     <link rel="stylesheet" href="css/home.css">
+     <link rel="stylesheet" href="css/font.css">
+     <link rel="stylesheet" href="css/hyu.css">
+     <link rel="stylesheet" href="css/pro.css">
+   
+    </style>
+
+</head>
+<body>
+  <header>
+  <nav class="navbar"> 
+  
+    <a href="" class="a"><img src="image/dongho.png" alt="" width="100px"></a>
+    <p class="i">Time Work <br>
+    9AM-22PM</p>
+    <a href="" class="w" style="float: right ;
+    display: block;
+    position: absolute;
+    right: 800px;
+    font-family:'Courier New', Courier, monospace
+    ;
+    color:cadetblue;
+    top:40px"><img src="image/giaohang.jpg "alt="" width="110px"></a>
+    <p class="u" >National <br>
+       Delivery
+   </p>
+    <a href="" class="k"><img src="image/j.jpg" alt=""  width="140px"></a>
+    <p class="c">100% quality <br> products</p>
+    <div class="col-md-3 ">
+      <div class="top-bar-item ">
+          <div class="top-bar-icon">
+              <i class="flaticon-user"></i>
+          </div>
+
+          <div class="mh" style="float: right ;
+          display: block;
+          position: absolute;
+          left: 1150px;
+          font-family:'Courier New', Courier, monospace
+          ;
+          top:25px;
+          color:cadetblue;
+          color: black;">
+            
+            <a href="login.html" class="navbar"><img src="image/l.png" width="80px" 
+              alt="">   
+              </a>
+               
+              
+
+  </div>
+      <div>
+   
+      <a href="" class="img"><img src="image/cart.webp" width="110px" 
+       alt=""></a>
+      
+      </div></div>
+</div>
+</nav>
+</header>
+
+
+          <br>
+         <br> <br> <br>
+         <nav class="navbar navbar-expand-lg" style="border-top: thin red solid !important;">
+          <div class="container-fluid">
+                  <!-- <a class="navbar-brand" href="#">My-Web</a> -->
+            
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse " id="navbarNav">
+                  
+                      <ul class="navbar-nav ">
+                         
+            
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index2.html" style="width: 350px; font-size: 25px;">Home</a>
+                            </li>
+                         
+            
+                            <div class="dropdown">
+                              <button class="btn "  data-toggle="dropdown" style="color:blue;width: 350px;font-size:25px">Product
+                              <span class="caret"></span></button>
+                              <ul class="dropdown-menu">
+                               
+                                <li><a href="#" class="ot">Calenndar</a></li>
+                                <li><a href="#" class="ot">Diary</a></li>
+                                <li><a href="#" class="ot">Other</a></li>
+                              
+                              </ul>
+                            
+                            </div>
+                            <li class="nav-item">
+                              <a class="nav-link " aria-current="page" href="index2.html" style="width:250px; font-size: 25px;">About Us</a>
+                          </li>
+                          
+                            
+                  <li class="nav-item">
+                    <a class="nav-link" href="Contact.html" style="width:280px ;font-size: 25px;">Contact Us</a></li>
+                    <div class="main">
+  
+                      <!-- Actual search box -->
+                      <div class="form-group has-search">
+                        <a href=""></a><span class="fa fa-search form-control-feedback btn-light" 
+                        ><img src="image/s.png" width="38px" alt=""></span>
+                        <input type="text" class="form-control" placeholder="Search for Products">
+                      </div>
+                    
+                    
+                    
+                  </div>
+                     
+              </li></ul></div></div></nav></body>
+             
+              
+
+        
+          
+         
+           <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+              <li data-target="#demo" data-slide-to="3"></li>
+              <li data-target="#demo" data-slide-to="4"></li>
+              <li data-target="#demo" data-slide-to="5"></li>
+            </ul>
+          
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="image/kh.jpg" alt="" width="100%" height="500px">
+               
+                 
+              </div>
+              <div class="carousel-item">
+                <img src="image/sotay.webp" alt="" width="100%" height="500px">
+              </div>
+              <div class="carousel-item">
+                <img src="image/lich3.jpg" alt="" width="100%" height="500px">
+              </div>
+              <div class="carousel-item">
+                <img src="image/lich6.jpg" alt="" width="100%" height="500px">
+              </div>
+              <div class="carousel-item">
+                <img src="image/tay4.jpg" alt="" width="100%" height="500px">
+              </div>
+              <div class="carousel-item">
+                <img src="image/tay5.webp" alt="" width="100%" height="500px">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+          </div>
+            <div class="mask">
+              <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white">
+                 
+                
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <!-- Background image -->
+          
+          <div class="feature">
+          
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="feature-item wow fadeInLeft" data-wow-delay="0.1s">
+                            <div class="feature-icon">
+                                <i class="flaticon-open-box"></i>
+                                <a href="" class="g"><img src="image/hang.jpg" alt=""  width="190px"></a>
+          <p class="s">Different products</p>
+                              
+                            </div>
+          
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feature">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="feature-item wow fadeInLeft" data-wow-delay="0.1s">
+                                        <div class="feature-icon">
+                                            <i class="flaticon-open-box"></i>
+                                            <a href="" class="m"><img src="image/hh.jpg" alt=""  width="110px"></a>
+                     <p class="x">Support Team 24/7</p>
+                     </div>
+                     <div class="feature">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-3 col-sm-6">
+                                    <div class="feature-item wow fadeInLeft" data-wow-delay="0.1s">
+                                        <div class="feature-icon">
+                                            <i class="flaticon-open-box"></i>
+                                            <a href="" class="b"><img src="image/dt.jpg" alt=""  width="110px"></a>
+                     <p class="v">Hotline:0982345567</p>
+                     </div>
+                              
+                  </div>
+                  </div>
+                  <br> <br> <br> <br> <br>
+                  <hr>
+                   
+          
+                            </div>
+                        </div>
+                        <!-- Footer -->
+                     </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+          </div> 
+          <br>
+           <br>
+          <hr style="border:solid thin red;text-align: center;">
+          <br> <br>
+          <div class="container" style="background-color: bisque;">
+            <h2 style="text-align:center ;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: red; font-size:40px;">Favorite Products</h2>
+           
+            <div class="row">
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <a href="image/licham.jpg" target="_blank">
+                    <img src="image/licham.jpg" alt="Lights" style="width:330px;height:300px">
+                    <div class="caption">
+                      <p style="color:blueviolet ;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Hexagonal Wooden Table Calendar 12 Sides Calendar ~ Engraved Logos Names As Gifts For Partners, Customers, Friends</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <a href="image/lichgo.jpg" target="_blank">
+                    <img src="image/lichgo.jpg" alt="Nature" style="width:330px;height:300px">
+                    <div class="caption">
+                      <p style="color:blueviolet ;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Creative wooden flip calendar, wooden desk calendar, high quality imported pine material, 2 colors</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <a href="image/lichmini.jpg" target="_blank">
+                    <img src="image/lichmini.jpg" alt="Fjords" style="width:330px;height:300px">
+                    <div class="caption">
+                      <p style="color:blueviolet ;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Desktop Calendar 2022-2023 Cute Design Mini</p>
+                    </div>
+                  </a>
+                </div>
+                
+              </div></div></div>
+              <div class="container" style="background-color: bisque;">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="thumbnail">
+                    <a href="image/sohoathinh.jpg" target="_blank">
+                      <img src="image/sohoathinh.jpg" alt="Lights" style="width:330px;height: 300px;">
+                      <div class="caption">
+                        <p style="color:blueviolet ;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Student handbook - antique Dam Hoa Nhat Mong - Size A5 - Comes with a metal bookmark</p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                    <div class="col-md-4">
+                      <div class="thumbnail">
+                        <a href="image/taybo.jpg" target="_blank">
+                          <img src="image/taybo.jpg" alt="Lights" style="width:330px;height:300px">
+                          <div class="caption">
+                            <p style="color:blueviolet ;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">LMini Notebook with Twisted Back Avocado Texture - Super Pretty Japanese Peach</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                        <div class="col-md-4">
+                          <div class="thumbnail">
+                            <a href="image/tay da bia.jpg" target="_blank">
+                              <img src="image/tay da bia.jpg" alt="Lights" style="width:330px;height:300px">
+                              <div class="caption">
+                                <p style="color:blueviolet ;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">A5 PU Leather cover notebook with 360 pages of beautiful paper deer Biga as a luxury gift</p>
+                              </div>
+                            </a>
+                          </div>
+                        </div></div></div> <br> <br> 
+          <h2 style="text-align: center;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: 25px;color:darkblue;
+          ">Other products are super discounted buy now</h2>
+          <div class="image">
+          <img src="image/sale.png" width="100px" alt=""></div>
+          <br>
+          <div class="owl-carousel owl-theme">
+            <div class="item"><a href=""> <img src="image/bia1.jpg" width="300px" height="200px"alt=""></a></div>
+            <div class="item"> <a href=""><img src="image/go.jpg" width="300px" height="200px"alt=""></a></div>
+            <div class="item"><a href=""><img
+               src="image/lich7.jpg" width="300px" height="200px"alt=""></a></div>
+            <div class="item"><a href="
+              "><img src="image/lich8.jpg" width="300px" height="200px"alt=""></a></div>
+            <div class="item"><a href=""><img src="image/tay1.jpg"width="300px" height="200px"alt=""></a></div>
+            <div class="item"><a href=""><img src="image/bia2.jpg" width="300px" height="200px"alt=""></a></div>
+            <div class="item"><a href=""><img src="image/but.jpg" width="300px" height="200px"alt=""></a></div>
+            <div class="item"><a href=""><img src="image/go2.jpg" width="300px" height="200px"alt=""></a></div>
+            <div class="item"><a href=""><img src="image/lich9.jpg" width="300px" height="200px"alt=""></a></div>
+            <div class="item"><a href=""><img src="image/lich10.jpg" width="300px" height="200px"alt=""></a></div>
+                      </div>
+                      <script>$('.owl-carousel').owlCarousel({
+                        loop:true,
+                        margin:10,
+                        nav:true,
+                        responsive:{
+                            0:{
+                                items:1
+                            },
+                            600:{
+                                items:3
+                            },
+                            1000:{
+                                items:5
+                            }
+                        }
+                      })</script>
+                      </div>
+          </table>     
+              <!-- Footer -->
+          <!-- Footer -->
+          <footer class="text-center text-lg-start bg-dark text-muted">
+          <!-- Section: Social media -->
+          <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+          <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+          
+          <!-- Right -->
+          <div>
+          <a href="https://vi-vn.facebook.com/" class="me-4 text-reset">
+          <i class="fab"><img src="image/f.png" width="50px" alt=""></i>
+          </a>
+          <a href="https://zalo.me/" class="me-4 text-reset">
+          <i class="fa"><img src="image/z.webp" width="50px" alt=""></i>
+          </a>
+          
+          <a href="https://www.instagram.com/accounts/login/" class="me-4 text-reset">
+          <i class="fb"><img src="image/i.png" width="50px" alt=""></i>
+          </a>
+          
+          </div>
+          <!-- Right -->
+          </section>
+          <!-- Section: Social media -->
+          
+          <!-- Section: Links  -->
+          <section class="" >
+          <div class="container text-center text-md-start mt-5 ">
+          <!-- Grid row -->
+          <div class=" row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+          <i class="lk">School name</i> 
+          </h6>
+          <br> 
+          <p class="bm">
+          Fpt Aptech
+          </p>
+          </div>
+          <!-- Grid column -->
+          
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="lk">
+          Products
+          </h6>
+          <p>
+          <a href="#!" class="bm">Calendar</a>
+          </p>
+          <p>
+          <a href="#!" class="bm">Diary</a>
+          </p>
+          <p>
+          <a href="#!" class="bm">Other</a>
+          </p>
+          
+          </div>
+          <!-- Grid column -->
+          
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="lk">
+          About Us
+          </h6>
+          <br> <br>
+          <p>
+          <a href="#!" class="bm">Pricing</a>
+          </p>
+          <p>
+          <a href="#!" class="bm">Settings</a>
+          </p>
+          <p>
+          <a href="#!" class="bm">Orders</a>
+          </p>
+          <p>
+          <a href="#!" class="bm">Help</a>
+          </p>
+          </div>
+          <!-- Grid column -->
+          
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="lk">Contact Us</h6>
+          <br> <br>
+          <p><a href="" class="bi">
+          590 CMT8, Ward 11, District 3, HCM City</a> </p>
+          <p>
+          <i class="bm">
+          Group6@example.com</i> 
+          </p>
+          <p><i class="bm"> 0982345567 </i> </p>
+          <p><i class="bm"> 0982345567 </i> </p>
+          </div>
+          <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+          </div>
+          </section>
+          <!-- Section: Links  -->
+          
+          <!-- Copyright -->
+          <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          
+          <a style="color:chocolate ; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">©T1.2208 - 2022 By Group 6</a>
+          </div>
+          <!-- Copyright -->
+          </footer>
+          <!-- Footer -->
+          
+          
+          </body></html>
+          
+          
+          
+          
+          
+          
+          
+           
+            

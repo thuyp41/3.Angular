@@ -1,0 +1,35 @@
+<div ng-controller="myList">
+    <h2>Project List</h2>
+    <p>Enter project name <input type="text" name="pname" ng-model="pname"></p>
+    <div>
+        <p>
+           Long-term <input type="radio" name="status"  ng-model="status" value="true">
+           Short-term <input type="radio" name="status"  ng-model="status" value="false">
+           All <input type="radio" name="status"  ng-model="status" >
+        </p>
+    </div>
+    
+    <table class="table table-bordered table-hover table-striped">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Active</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="p in ds | filter:status |filter:pname" >
+                <td>{{$index+1}}</td>
+                <td>{{p.id| uppercase}}</td>
+                <td>{{p.name}}</td>
+                <td>{{p.type| uppercase}}</td>
+                <td>{{p.active| lowercase}}</td>
+                <td> <button type="button" class="btn btn-success" ng-click="remove(p.id)" > Delete </button></td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

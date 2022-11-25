@@ -1,0 +1,46 @@
+<style>
+    .error {
+        color: red;
+    }
+
+    input.ng-invalid {
+        border: red thin solid;
+    }
+
+    input.ng-valid {
+        border: gray thin solid;
+    }
+</style>
+
+<div ng-controller="myAdd">
+    <h2>Add New Project</h2>
+    <hr>
+
+    <form name="formProjectt" ng-submit="addProject()">
+
+        <div class="form-group col-md-6">
+            <label>ID</label>
+            <input type="text" class="form-control" id="projectID" name="projectID" pattern="P\d{2}" ng-model="id"
+                required>
+            <span class="error" ng-show="formProjectt.projectID.$error.required">ID is Required.</span><br>
+            <span class="error" ng-show="formProjectt.projectID.$invalid">ID has format Pxx, x:digit</span>
+        </div>
+
+        <div class="form-group col-md-6">
+            <label>Name</label>
+            <input type="text" class="form-control" id="projectName" name="projectName" ng-model="name" required>
+            <span class="error" ng-show="formProjectt.projectName.$error.required">Name is Required.</span>
+        </div>
+
+        <div class="form-group col-md-6">
+            <label>Type</label>
+            <input type="text" class="form-control" id="type" name="type" ng-model="type" required>
+            <span class="error" ng-show="formProjectt.type.$error.required">Type is Required. </span>
+        </div>
+        <div style="margin-left: 18px;">
+            <p>Active <input type="checkbox" name="check"  ng-model="check" ng-init="check=false" ></p>
+        </div>
+        <button style="margin-left: 18px;" type="submit" class="btn btn-info" ng-disabled="formProjectt.$invalid" >Add</button>
+
+    </form>
+</div>

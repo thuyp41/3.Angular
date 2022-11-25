@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--fontanswer-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- 1. nhung link angularjs framework -->
+     <script src="js/angular.min.js"></script>
+     <script src="js/angular-route.min.js"></script>
+     <link rel="stylesheet" href="css/index.css">
+     <link rel="stylesheet" href="css/home.css">
+     <link rel="stylesheet" href="css/index2.css">
+   
+</head>
+     <body>
+      <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-scroll">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#!"><span style="color: #5e9693;">Ryana</span><span style="color: #fff;">Calendar</span></a></a>
+            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+              data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="cnav justify-content-center" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html" style="width:80px; padding-top: 30px;" >Home</a>
+                </li>
+                <div class="dropdown">
+                  <button class="btn  dropdown-toggle"   data-toggle="dropdown" style="width:200px;color:blue !important; font-size: 20px;padding-top: 30px;"  >Product
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                   <li><a href="" class="ot">Calendar</a></li>
+                      
+                    <li><a href="#" class="ot">Diary</a></li>
+                    <li><a href="#" class="ot">Other</a></li>
+                  
+                  </ul>
+                
+                </div>
+                <li class="nav-item">
+                  <a class="nav-link" href="#!" style="width:150px;padding-top: 30px;" >About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Contact.html" style="width:150px;padding-top: 30px;" >Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html" style="width:150px;" ><button class= "btn-outline-danger"style=" border-radius:150px;font-weight: 10px !important;"> Login</a></button>
+                  
+                </li>
+                
+                
+              </ul>
+            </div>
+              <ul class="navbar-nav d-flex flex-row">
+                <li class="nav-item me-3 me-lg-0">
+                  <a class="nav" href="cart2.html">
+                    <i class="fas fa-shopping-cart"></i>
+                  </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                  <a class="nav" href="#!">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="nav-item me-3 me-lg-0">
+                  <a class="nav" href="#!">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Navbar -->
+      
+        <!--Section: Design Block-->
+        <section>
+          <div id="intro" class="bg-image" style="
+              background-image: url('image/k.jpg');
+              height: 100vh;
+            ">
+            <div class="mask" style="background-color:rgba(0, 0, 0, 0.05); height: 100vh;">
+              <div class="container d-flex justify-content-center align-items-center h-100">
+                <div class="row align-items-center">
+                  <div class="col-12">
+                    <div class="carousel-item active">
+                      <div class="mask" style="background-color: rgba(0, 0, 0, 0);">
+                        
+                          <div class="text-white text-center">
+                            <h1 class="mb-3"><div style="color:chocolate;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" >What's new in the 2023 calendar, let's see it now
+                                </div></h1>
+                            <h5 class="mb-4" style="color:aquamarine;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Unique designs make anyone fall in love</h5>
+                            <a class="btn btn-outline-danger btn-lg m-2" href="index.html"
+                              role="button" rel="nofollow" target="_blank" style="color:darkblue;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" >Start Calendar</a>
+                            
+                          </div>
+                        </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Section: Design Block-->
+      </header>
+      
+      <br> 
+      <main class="container-fluid">
+       
+        <div class="row mb-2">
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-0 shadow-sm h-md-200 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary"></strong>
+                <h3 class="mb-3" style="color:aquamarine ; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Springs calendar 2023</h3>
+               
+                <p class="card-text mb-auto" style="color:black ; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Hard Springs Desk Calendar 2023 Cute Textures</p>
+                <a href="#" class=" btn btn-danger" >Continue reading</a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <svg class="bd-placeholder-img" width="150"height="250" xmlns="https://cf.shopee.vn/file/sg-11134201-22110-eisd2pxg9kjv9d" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="https://cf.shopee.vn/file/sg-11134201-22110-eisd2pxg9kjv9d" alt="" width="250px"></text></svg>
+      
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+              <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success"></strong>
+                <h3 class="mb-4"  style="color:aquamarine ; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Diary 2023</h3>
+                
+                <p class="mb-auto" style="color:black ; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Planner A5 POP UP Diary Notebook Cute Japanese Hardcover - Comes with Stickers</p>
+                <a href="#" class=" btn btn-danger">Continue reading</a>
+              </div>
+              <div class="col-auto d-none d-lg-block">
+                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><img src="https://cf.shopee.vn/file/9d96dfd8753b26b10162a1bd375c9513" alt="" width="250px";></text></svg>
+      
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <hr style="border:solid thin red;text-align: center;">
+        <br> <br>
+        <div class="container" style="background-color: bisque;">
+          <h2 style="text-align:center ;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: red; font-size:40px;">Favorite Products</h2>
+         
+          <div class="row">
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href="image/licham.jpg" target="_blank">
+                  <img src="image/licham.jpg" alt="Lights" style="width:330px;height:300px">
+                  <div class="caption">
+                    <p style="color:blueviolet ;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Hexagonal Wooden Table Calendar 12 Sides Calendar ~ Engraved Logos Names As Gifts For Partners, Customers, Friends</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href="image/lichgo.jpg" target="_blank">
+                  <img src="image/lichgo.jpg" alt="Nature" style="width:330px;height:300px">
+                  <div class="caption">
+                    <p style="color:blueviolet ;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Creative wooden flip calendar, wooden desk calendar, high quality imported pine material, 2 colors</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail">
+                <a href="image/lichmini.jpg" target="_blank">
+                  <img src="image/lichmini.jpg" alt="Fjords" style="width:330px;height:300px">
+                  <div class="caption">
+                    <p style="color:blueviolet ;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Desktop Calendar 2022-2023 Cute Design Mini</p>
+                  </div>
+                </a>
+              </div>
+              
+            </div></div></div>
+            <div class="container" style="background-color: bisque;">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="thumbnail">
+                  <a href="image/sohoathinh.jpg" target="_blank">
+                    <img src="image/sohoathinh.jpg" alt="Lights" style="width:330px;height: 300px;">
+                    <div class="caption">
+                      <p style="color:blueviolet ;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">Student handbook - antique Dam Hoa Nhat Mong - Size A5 - Comes with a metal bookmark</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+                  <div class="col-md-4">
+                    <div class="thumbnail">
+                      <a href="image/taybo.jpg" target="_blank">
+                        <img src="image/taybo.jpg" alt="Lights" style="width:330px;height:300px">
+                        <div class="caption">
+                          <p style="color:blueviolet ;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">LMini Notebook with Twisted Back Avocado Texture - Super Pretty Japanese Peach</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                      <div class="col-md-4">
+                        <div class="thumbnail">
+                          <a href="image/tay da bia.jpg" target="_blank">
+                            <img src="image/tay da bia.jpg" alt="Lights" style="width:330px;height:300px">
+                            <div class="caption">
+                              <p style="color:blueviolet ;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif">A5 PU Leather cover notebook with 360 pages of beautiful paper deer Biga as a luxury gift</p>
+                            </div>
+                          </a>
+                        </div>
+                      </div></div></div> <br> <br> 
+        <h2 style="text-align: center;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;font-size: 25px;color:darkblue;
+        ">Other products are super discounted buy now</h2>
+        <div class="image">
+        <img src="image/sale.png" width="100px" alt=""></div>
+        <br>
+        <div class="owl-carousel owl-theme">
+          <div class="item"><a href=""> <img src="image/bia1.jpg" width="300px" height="200px"alt=""></a></div>
+          <div class="item"> <a href=""><img src="image/go.jpg" width="300px" height="200px"alt=""></a></div>
+          <div class="item"><a href=""><img
+             src="image/lich7.jpg" width="300px" height="200px"alt=""></a></div>
+          <div class="item"><a href="
+            "><img src="image/lich8.jpg" width="300px" height="200px"alt=""></a></div>
+          <div class="item"><a href=""><img src="image/tay1.jpg"width="300px" height="200px"alt=""></a></div>
+          <div class="item"><a href=""><img src="image/bia2.jpg" width="300px" height="200px"alt=""></a></div>
+          <div class="item"><a href=""><img src="image/but.jpg" width="300px" height="200px"alt=""></a></div>
+          <div class="item"><a href=""><img src="image/go2.jpg" width="300px" height="200px"alt=""></a></div>
+          <div class="item"><a href=""><img src="image/lich9.jpg" width="300px" height="200px"alt=""></a></div>
+          <div class="item"><a href=""><img src="image/lich10.jpg" width="300px" height="200px"alt=""></a></div>
+                    </div>
+                    <script>$('.owl-carousel').owlCarousel({
+                      loop:true,
+                      margin:10,
+                      nav:true,
+                      responsive:{
+                          0:{
+                              items:1
+                          },
+                          600:{
+                              items:3
+                          },
+                          1000:{
+                              items:5
+                          }
+                      }
+                    })</script>
+                    </div>
+        </table>     
+            <!-- Footer -->
+        <!-- Footer -->
+        <footer class="text-center text-lg-start bg-dark text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+        
+        <!-- Right -->
+        <div>
+        <a href="https://vi-vn.facebook.com/" class="me-4 text-reset">
+        <i class="fab"><img src="image/f.png" width="50px" alt=""></i>
+        </a>
+        <a href="https://zalo.me/" class="me-4 text-reset">
+        <i class="fa"><img src="image/z.webp" width="50px" alt=""></i>
+        </a>
+        
+        <a href="https://www.instagram.com/accounts/login/" class="me-4 text-reset">
+        <i class="fb"><img src="image/i.png" width="50px" alt=""></i>
+        </a>
+        
+        </div>
+        <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+        
+        <!-- Section: Links  -->
+        <section class="" >
+        <div class="container text-center text-md-start mt-5 ">
+        <!-- Grid row -->
+        <div class=" row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <!-- Content -->
+        <h6 class="text-uppercase fw-bold mb-4">
+        <i class="lk">School name</i> 
+        </h6>
+        <br> 
+        <p class="bm">
+        Fpt Aptech
+        </p>
+        </div>
+        <!-- Grid column -->
+        
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <!-- Links -->
+        <h6 class="lk">
+        Products
+        </h6>
+        <p>
+        <a href="#!" class="bm">Calendar</a>
+        </p>
+        <p>
+        <a href="#!" class="bm">Diary</a>
+        </p>
+        <p>
+        <a href="#!" class="bm">Other</a>
+        </p>
+        
+        </div>
+        <!-- Grid column -->
+        
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <!-- Links -->
+        <h6 class="lk">
+        About Us
+        </h6>
+        <br> <br>
+        <p>
+        <a href="#!" class="bm">Pricing</a>
+        </p>
+        <p>
+        <a href="#!" class="bm">Settings</a>
+        </p>
+        <p>
+        <a href="#!" class="bm">Orders</a>
+        </p>
+        <p>
+        <a href="#!" class="bm">Help</a>
+        </p>
+        </div>
+        <!-- Grid column -->
+        
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <!-- Links -->
+        <h6 class="lk">Contact Us</h6>
+        <br> <br>
+        <p><a href="" class="bi">
+        590 CMT8, Ward 11, District 3, HCM City</a> </p>
+        <p>
+        <i class="bm">
+        Group6@example.com</i> 
+        </p>
+        <p><i class="bm"> 0982345567 </i> </p>
+        <p><i class="bm"> 0982345567 </i> </p>
+        </div>
+        <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+        </div>
+        </section>
+        <!-- Section: Links  -->
+        
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        
+        <a style="color:chocolate ; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">©T1.2208 - 2022 By Group 6</a>
+        </div>
+        <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+        
+        
+        </body></html>
+        
+        
+        
+        
+        
+        
+        
+         
+          
+             
+          

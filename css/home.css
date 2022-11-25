@@ -1,0 +1,120 @@
+.g{
+    float: right ;
+      display: block;
+      position: absolute;
+      left: 0px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+   
+  .s{
+    float: right ;
+      display: block;
+      position: absolute;
+      left: 170px;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      top:80px;
+      font-size: 20px;
+    color: #9DBFAF;}
+      
+      .m{
+        float: right ;
+          display: block;
+          position: absolute;
+          left: 400px;
+        color: #9DBFAF;
+      top:35px}
+          
+       
+      .x{
+        float: left;
+          display: block;
+          position: absolute;
+          left: 520px;
+          font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+          top:60px;
+          color: #9DBFAF;
+          font-size: 20px;
+  }
+  .b{
+    float: right ;
+      display: block;
+      position: absolute;
+      left: 950px;
+      top:40px;
+    color: #9DBFAF;
+ }
+      
+   
+  .v{
+    float: left;
+      display: block;
+      position: absolute;
+      left: 1100px;
+      font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 20px;
+      top:80px;
+      color: #9DBFAF;
+  }
+  .z{
+   
+   text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+    color: #9DBFAF;
+  }
+ 
+  .contact{
+    background-color: whitesmoke;
+  }
+  .kj{
+    width: 500px;
+  }
+  .gb{
+    text-align: center;
+    padding: 15px;
+  }
+  .lk{
+    color: brown;
+      font-size: 30px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      float: left;
+      right: 400px;
+   }
+   .cs{
+    color:cadetblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+   .bm:hover{
+    color:red;
+    transition: .2s;
+   }
+   .search-container :hover{
+    color:blue;
+    transition: .2s;
+    font-size: 15px;
+   }
+   .main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 80px;
+    top:22px;
+    float: left;
+    right:100px;
+    width: 330px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: chocolate;
+}
+
+
+.has-search .form-control-feedback {
+  padding-left: 80px;
+  top:22px;
+  float: left;
+  right:60px;
+  
+}
+  
