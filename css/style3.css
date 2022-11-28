@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nerko+One&family=Poppins:ital,wght@1,300;1,400&family=Rubik+Glitch&family=Rubik+Marker+Hatch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nerko+One&family=Poppins:ital,wght@1,300;1,400&family=Rubik+Glitch&family=Rubik+Marker+Hatch&display=swap');
+
+    .container h2{
+        text-align: center;
+        font-size: 10em;
+        line-height: 0.7em;
+        color: #fff;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        font-family: 'Rubik Glitch';
+        font-weight: normal;
+        margin: 50px 40px;
+        animation: newYearText 3s infinite;
+text-shadow: 2px 2px 4px #000000;
+    }
+    .container h2 span{
+        display: block;
+        letter-spacing: 6px;
+        font-size: 0.2em;
+    }
+   
+    @keyframes newYearText {
+        0% {
+            color: yellow;
+    
+        }
+    
+        25% {
+            color: dodgerblue;
+        }
+    
+        50% {
+            color: violet;
+        }
+    
+        75% {
+            color: green;
+        }
+    
+        100% {
+            color: crimson;
+        }
+    
+    }
+    
+   
+    
+   
+       
+   .countdown{
+        display: flex;
+        margin-top: 50px;
+    }
+   .countdown div{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: #333;
+    border-radius: 8px;
+    color: #fff;
+    margin: 0 60px;
+    font-size: 3em;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12),
+    0 2px 2px rgba(0,0,0,0.12),
+     0 4px 4px rgba(0,0,0,0.12),
+     0 8px 8px rgba(0,0,0,0.12),
+    0 16px 16px rgba(0,0,0,0.12);
+}
+.countdown div:before{
+    background-color: blue;
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+   
+    border-radius: 5px;
+    color: #dddddd;
+    font-size: 0.4em;
+    line-height: 35px;
+}
+.countdown #day:before{
+    content: 'Days';
+    
+}
+.countdown #hour:before{
+    content: 'Hours';
+}
+.countdown #minute:before{
+    content: 'Minutes';
+}
+.countdown #second:before{
+    content: 'Seconds';
+}
+.caerds-wrapper{
+    display: flex;
+}
+.card{
+    margin: 0.5rem;
+    width: calc(100%/3);
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+    top:100px;
+    display: flex;
+ right: 130px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .modalz {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+   
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-contents {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    
+    display: flex;
+ 
+  }
+  
+  /* The Close Button */
+  .closes {
+    color: #aaaaaa;
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .closes:hover,
+  .closes:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
