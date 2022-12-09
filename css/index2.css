@@ -1,4 +1,8 @@
-
+.dropdown{
+  top:60px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: 200px;
+}
 *{
   margin: 0;
   padding: 0;
@@ -68,3 +72,4 @@ text-align: left;
   cart table tbody tr td:last-child{
     text-align: right;
   }
+  
