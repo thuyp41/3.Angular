@@ -6,43 +6,59 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
 
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
 
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--fontanswer-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+   >
   <!-- 1. nhung link angularjs framework -->
   <script src="js/angular.min.js"></script>
   <script src="js/angular-route.min.js"></script>
+ <link rel="stylesheet" href="css/contact.css">
+ <link rel="stylesheet" href="css/login.css">
 
- <link rel="stylesheet" href="css/index.css">
-     <link rel="stylesheet" href="css/home.css">
-     <link rel="stylesheet" href="css/hyu.css">
-    
 </head>
 
 <body>
+ 
   <header>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-scroll">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#!"><span style="color: #5e9693;">Ryana</span><span style="color: #fff;">Calendar</span></a></a>
-        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-          data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#!"><h2><span style="color: #5e9693;">Ryana</span><span
+          style="color:dimgray;">Calendar</span></h2></a></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
           <i class="fas fa-bars"></i>
-        </button>
-        <div class="cnav justify-content-center" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto  ">
+         
+          <ul class="nav justify-content-end ">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html" style="width:80px; padding-top: 30px;" >Home</a>
+              <a class="nav-link active" aria-current="page" href="index3.html" style="width:60px; padding-top: 30px;" >Home</a>
             </li>
             <div class="dropdown">
-              <button class="btn  dropdown-toggle"   data-toggle="dropdown" style="width:200px;color:blue !important; font-size: 20px;padding-top: 30px;"  >Product
+              <button class="btn  dropdown-toggle"   data-toggle="dropdown" style="width:170px;color:blue !important; font-size: 20px;padding-top: 30px; position: 
+              relative;"  >Product
               <span class="caret"></span></button>
-              <ul class="dropdown-menu">
+              <ul class="dropdown-menu"  >
                
                 <li><a href="#" class="ot">Calenndar</a></li>
                 <li><a href="#" class="ot">Diary</a></li>
@@ -52,47 +68,37 @@
             
             </div>
             <li class="nav-item">
-              <a class="nav-link" href="#!" style="width:150px;padding-top: 30px;" >About Us</a>
+              <a class="nav-link" href="aboutus.html" style="width:120px;padding-top: 30px;" >About Us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Contact.html" style="width:150px;padding-top: 30px;" >Contact Us</a>
             </li>
+            
             <li class="nav-item">
-              <a class="nav-link" href="login.html" style="width:150px;" ><button class= "btn-outline-danger"style=" border-radius:150px;font-weight: 10px !important;"> Login</a></button>
+              <a class="nav-link" href="login.html" style="width:100px;" ><button class= "btn-outline-danger"style=" border-radius:100px;font-weight: 10px !important;"> Login</a></button>
               
             </li>
-            
-            
-          </ul>
-        </div>
-          <ul class="navbar-nav d-flex flex-row">
-            <li class="nav-item me-3 me-lg-0">
-              <a class="nav" href="#!">
-                <i class="fas fa-shopping-cart"></i>
-              </a>
-            </li>
-            <li class="nav-item me-3 me-lg-0">
-              <a class="nav" href="#!">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </li>
-            <li class="nav-item me-3 me-lg-0">
-              <a class="nav" href="#!">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Navbar -->
-  
-  
+        </ul>
+    </div>
+      <ul class="navbar-nav d-flex flex-row">
+        <li class="nav-item me-3 me-lg-0">
+          <a class="nav" href="#!">
+         </i>
+          </a>
+        </li>
+        <li class="nav-item me-3 me-lg-0">
+         </i>
+          </a>
+        </li>
+        <li class="nav-item me-3 me-lg-0">
+       </i>
+          </a>
+        </li></ul></nav></header>
     <!--Section: Design Block-->
     <section>
       <div id="intro" class="bg-image" style="
-          background-image: url('image/l.jpg');
-          height: 100vh; 
+          background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjS6b2hYMRacLPaLQDQSxZBKeyQ-Uz2pk1cN8SJ0761dk_rLnIe8zxV6b19jSGYBCFMJ93w9XcTizF3x1hsoxNf46Whs8EgGDuNpR5O31Hb75RWyulpfJ__-qe4XsSB6dXwLtsTgArY91iwgYV8dUdkgpxW7NaUXWT0CfQW75YXYT_qz2e4h8ICcADg/w1200-h630-p-k-no-nu/Happy-New-Year-2023-Clipart.jpg');
+          height: 100vh; background-size: cover;
         ">
         <div class="mask" style="background-color:rgba(0, 0, 0, 0.05); height: 100vh;">
           <div class="container d-flex justify-content-center align-items-center h-100">
@@ -114,7 +120,8 @@
     <!--Section: Design Block-->
   </header>
   
-           
+    
+    <!-- Section: Design Block -->
     <section class="vh-100" style="background-color:whitesmoke ;">
       <div class="container py-5 h-100">
         <div class="row d-flex align-items-center justify-content-center h-100">
@@ -125,7 +132,7 @@
             <form>
               <!-- Email input -->
               <div class="form-outline mb-4">
-                <label for=""  style="color:red; font-size:20px ; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Email Address:</label>
+                <label for=""  style="color:red; font-size:20px ; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;float: inline-start;">Email Address :</label>
                 <input type="email" id="form1Example13" class="form-control form-control-lg"
                   style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; color:black" /></label>
 
@@ -133,7 +140,7 @@
 
               <!-- Password input -->
               <div class="form-outline mb-4">
-                <label for="" style="color:red; font-size:20px ; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">password</label>
+                <label for="" style="color:red; font-size:20px ; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">password :</label>
                 <input type="password" id="form1Example23" class="form-control form-control-lg"
                   style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ; color:black" />
 
@@ -157,15 +164,16 @@
 
 
 
-              <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998" href="https://vi-vn.facebook.com/" role="button">
-                <i class="fu"><img src="image/f.png" width="50px" alt=""></i>Continue with Facebook
-              </a>
-              <a class="btn btn-primary btn-lg btn-block" style="background-color: #55acee;font-size: 30px;" href="https://www.instagram.com/accounts/login/" role="button">
-                <i class="fm"> <img src="image/i.png" width="50px" alt="" style="top: 45px;"></i>Continue with Instagram</a>
+              <a class="btn btn-primary btn-lg btn-block" style="background-color: #3b5998" href="https://www.facebook.com/?stype=lo&jlou=AfchPZkIDjoLCY3YtlLyT-Q5VpmS-aF-SNKTwzv-1EaWrHR1okRO-cDvmf5mqTpgMvHK_FtBFk9ekskm0-JtCTwkVXCCCCSpCos0IaVeYtsfgg&smuh=3762&lh=Ac_j6zDuD3zIVNX_Wt0" class="text-white me-4"
+            role="button">
+          <i class="fab fa-facebook-f me-2"></i>Continue with Facebook
+          </a>
+          <a class="btn btn-primary btn-lg btn-block" style="background-color: #55acee" href="https://twitter.com/"
+            role="button">
+         <i class="fab fa-twitter me-2"></i>Continue with Twitter</a>
 
             </form>
           </div>
         </div>
       </div>
     </section>
-   

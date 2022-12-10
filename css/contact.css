@@ -7,6 +7,38 @@
  .bm:hover{
   color:red;
   transition: .2s;}
+  @keyframes newYearText {
+    0% {
+        color: yellow;
+  
+    }
+  
+    25% {
+        color: dodgerblue;
+    }
+  
+    50% {
+        color: violet;
+    }
+  
+    75% {
+        color: green;
+    }
+  
+    100% {
+        color: crimson;
+    }
+  
+  }
+  
+  .container{
+    text-align: center;
+    
+   
+   
+    animation: newYearText 3s infinite;
+  text-shadow: 2px 2px 4px #000000;
+  }
   .bm{
     color:cadetblue;
       font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -61,3 +93,4 @@
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   
  }
+ @import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');

@@ -32,27 +32,8 @@
   color: blueviolet;
   background-color: bisque;
 }
-.fab{
-  float: right;
-  display: block;
-  position: absolute;
-  right: 160px;
-  top: 3065px;
-}
-.fa{
 
-float: left;
-  display: block;
-  position: absolute;
-  right: 100px;
-  top:3065px;}
-  .fb{
-    float: left;
-  display: block;
-  position: absolute;
-  right: 40px;
-  top: 3065px;
-  }
+
   .mj{
     color:lightsteelblue;
     font-family: serif;

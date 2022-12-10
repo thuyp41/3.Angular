@@ -30,7 +30,41 @@
   box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
 
 }
+@keyframes newYearText {
+  0% {
+      color: yellow;
 
+  }
+
+  25% {
+      color: dodgerblue;
+  }
+
+  50% {
+      color: violet;
+  }
+
+  75% {
+      color: green;
+  }
+
+  100% {
+      color: crimson;
+  }
+
+}
+dropdown:hover{
+  color:red;
+  transition: 0.2s;
+}
+.container{
+  text-align: center;
+  
+ 
+ 
+  animation: newYearText 3s infinite;
+text-shadow: 2px 2px 4px #000000;
+}
 .navbar-scrolled .navbar-brand,
 .navbar-scrolled .nav-link,
 .navbar-scrolled .fa-bars {
@@ -52,7 +86,7 @@
   object-fit: cover;
 }
 .image{
-  
+ 
   display: flex;
   justify-content: center;
  }
@@ -73,16 +107,12 @@
    }
    .ot{
     display: flex;
-    color: #4f4f4f;
     justify-content: center;
-   transition: .2s
-   
-   ;
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   border-radius: 5px;
+    color:#4f4f4f;
+    transition: .2s;
    }
    .ot:hover{
-    color: darkgray;
+    color: #c4c4c4;
    }
  .nav-link{
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -95,12 +125,10 @@
   border-radius: 5px;
  
  }
- .dropdown{
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  top:60px;
-  left:160px
  
- }.dropdown:hover{
+
+ 
+ .dropdown:hover{
   color: red !important;
   transition: .2s;
  }
@@ -115,7 +143,7 @@
     
     padding-right: 50px !important;
  }
- .img-fluid{
+ img-fluid{
   padding: 3px;
   width: 50px;
  }
@@ -170,3 +198,4 @@
 .live{
   color: black;
 }
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Rubik+Vinyl&display=swap');

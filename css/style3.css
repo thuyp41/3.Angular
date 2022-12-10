@@ -6,11 +6,12 @@
         font-size: 10em;
         line-height: 0.7em;
         color: #fff;
-        margin-top: 0px;
-        padding-bottom: 0px;
+        margin-top: 10px;
+        padding-bottom: 20px;
         font-family: 'Rubik Glitch';
         font-weight: normal;
-        margin: 50px 40px;
+        margin: 100px 60px;
+       
         animation: newYearText 3s infinite;
 text-shadow: 2px 2px 4px #000000;
     }

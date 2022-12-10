@@ -79,6 +79,13 @@
       float: left;
       right: 400px;
    }
+   .lki{
+    color: brown;
+      font-size: 30px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      float: left;
+      right: 100px !important;
+   }
    .cs{
     color:cadetblue;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -99,22 +106,5 @@
 
 /* Bootstrap 4 text input with search icon */
 
-.has-search .form-control {
-    padding-left: 80px;
-    top:22px;
-    float: left;
-    right:100px;
-    width: 330px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: chocolate;
-}
 
-
-.has-search .form-control-feedback {
-  padding-left: 80px;
-  top:22px;
-  float: left;
-  right:60px;
-  
-}
   
